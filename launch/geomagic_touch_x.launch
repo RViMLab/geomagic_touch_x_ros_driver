@@ -1,0 +1,12 @@
+<launch>
+
+  <arg name="rviz" default="true"/>
+  <arg name="device_name" default="Left"/>
+
+  <node name="geomagic_touch_x_node" pkg="geomagic_touch_x_ros" type="geomagic_touch_x_node" output="screen">
+    <param name="device_name" type="str" value="$(arg device_name)"/>
+  </node>
+
+  <node name="rviz" pkg="rviz" type="rviz" if="$(arg rviz)" args="-d $(find geomagic_touch_x_ros)/rviz.rviz"/>
+
+</launch>

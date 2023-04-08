@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<package>
+  <name>geomagic_touch_x_ros</name>
+  <version>2.0.0</version>
+  <description>ROS Package for the Geomagic Touch X</description>
+
+  <maintainer email="christopher.mower@kcl.ac.uk">Christopher E. Mower</maintainer>
+  <maintainer email="ross.henry@kcl.ac.uk">Ross Henry</maintainer>
+  <license>BSD</license>
+
+  <buildtool_depend>catkin</buildtool_depend>
+  <build_depend>geometry_msgs</build_depend>
+  <build_depend>roscpp</build_depend>
+  <build_depend>sensor_msgs</build_depend>
+  <build_depend>tf</build_depend>
+  <run_depend>geometry_msgs</run_depend>
+  <run_depend>roscpp</run_depend>
+  <run_depend>sensor_msgs</run_depend>
+  <run_depend>tf</run_depend>
+  <build_depend>message_generation</build_depend>
+  <run_depend>message_generation</run_depend>
+
+</package>

@@ -1,0 +1,1 @@
+/opt/geomagic_touch_device_driver/Geomagic_Touch_Setup
